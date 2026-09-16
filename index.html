@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RUSHIFIC — V2.5</title>
+  <meta name="description" content="RUSHIFIC — games, streams, videos, movies, thoughts and everything in between.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <nav class="nav-pill" aria-label="Main navigation">
+        <a href="#content" data-nav="content">CONTENT</a>
+        <a href="#twitch" data-nav="twitch">TWITCH</a>
+        <a href="#community" data-nav="community">COMMUNITY</a>
+        <a href="#about" data-nav="about">ABOUT</a>
+        <a href="#contact" data-nav="contact">CONTACT</a>
+      </nav>
+
+      <div class="scroll-hud" aria-label="Page progress">
+        <span class="hud-label">SCROLL</span>
+        <div class="progress-track">
+          <div class="progress-fill"></div>
+          <img class="progress-egg" src="assets/eggface.png" alt="">
+        </div>
+        <span class="hud-label">EXPLORE ↓</span>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero section-pad">
+        <div class="hero-copy">
+          <div class="hero-title-box">
+            <h1 data-copy="heroTitle">I AM RUSHIFIC.</h1>
+          </div>
+
+          <div class="hero-lines">
+            <p data-copy="heroLine1"></p>
+            <p data-copy="heroLine2"></p>
+            <p data-copy="heroLine3"></p>
+          </div>
+        </div>
+
+        <div class="hero-egg-wrap">
+          <img src="assets/eggface.png" class="hero-egg" alt="The RUSHIFIC egg mascot">
+          <span class="egg-note">just an egg.</span>
+        </div>
+      </section>
+
+      <section id="content" class="section section-pad">
+        <div class="section-heading">
+          <h2 data-copy="contentHeading"></h2>
+        </div>
+
+        <div class="platform-grid">
+          <article class="platform-card youtube-card">
+            <div class="platform-head">
+              <div class="platform-title">
+                <h3>YOUTUBE</h3>
+              </div>
+            </div>
+            <p class="platform-description" data-copy="youtubeDescription"></p>
+
+            <div class="channel-mini-grid">
+              <a class="channel-mini" href="#" data-link="RUSHIFIC_YOUTUBE_URL">
+                <div>
+                  <h4 data-copy="youtubeMainName"></h4>
+                  <p data-copy="youtubeMainDescription"></p>
+                </div>
+                <span class="arrow">↗</span>
+              </a>
+
+              <a class="channel-mini" href="#" data-link="RUSHIFIC_CLIPS_URL">
+                <div>
+                  <h4 data-copy="youtubeClipsName"></h4>
+                  <p data-copy="youtubeClipsDescription"></p>
+                </div>
+                <span class="arrow">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <a id="twitch" class="platform-card twitch-card twitch-card-link" href="#" data-link="TWITCH_URL">
+            <div class="platform-head">
+              <div class="platform-title">
+                <h3>TWITCH</h3>
+              </div>
+              <span class="arrow big-arrow">↗</span>
+            </div>
+            <p class="platform-description" data-copy="twitchDescription"></p>
+          </a>
+        </div>
+
+        <div class="other-channels">
+          <a class="other-card otdp" href="#" data-link="OTDP_URL">
+            <div class="card-top">
+              <h3 data-copy="otdpName"></h3><span>↗</span>
+            </div>
+            <p data-copy="otdpDescription"></p>
+            <div class="ghost-mark ghost-film" aria-hidden="true"></div>
+          </a>
+
+          <a class="other-card neobrainer" href="#" data-link="NEOBRAINER_URL">
+            <div class="card-top">
+              <h3 data-copy="neobrainerName"></h3><span>↗</span>
+            </div>
+            <p data-copy="neobrainerDescription"></p>
+            <div class="ghost-mark ghost-book" aria-hidden="true"></div>
+          </a>
+
+          <a class="other-card rudra" href="#" data-link="RUDRA_SANCHAARI_URL">
+            <div class="card-top">
+              <h3 data-copy="rudraName"></h3><span>↗</span>
+            </div>
+            <p data-copy="rudraDescription"></p>
+            <div class="ghost-mark ghost-mountain" aria-hidden="true"></div>
+          </a>
+        </div>
+
+        <section id="community" class="discord-card">
+          <div class="discord-icons" aria-hidden="true">
+            <img class="discord-clown" src="assets/clown-discord.jpg" alt="">
+          </div>
+          <div class="discord-copy">
+            <h3 data-copy="discordTitle"></h3>
+            <p data-copy="discordDescription"></p>
+          </div>
+          <a class="discord-button" href="#" data-link="DISCORD_URL" data-copy="discordButton"></a>
+
+          <div class="server-info">
+            <label data-copy="serverLabel"></label>
+            <div class="server-name">
+              <span class="status-dot"></span>
+              <span data-copy="serverName"></span>
+            </div>
+            <p data-copy="serverTagline"></p>
+          </div>
+        </section>
+      </section>
+
+      <section id="about" class="about section-pad">
+        <h2 data-copy="aboutTitle"></h2>
+        <div class="about-copy">
+          <p data-copy="aboutLine1"></p>
+          <p data-copy="aboutLine2"></p>
+          <p data-copy="aboutLine3"></p>
+          <p data-copy="aboutLine4"></p>
+        </div>
+      </section>
+
+      <section id="contact" class="find section-pad">
+        <div class="find-title">
+          <p class="eyebrow" data-copy="findEyebrow"></p>
+          <h2 data-copy="findTitle"></h2>
+        </div>
+
+        <div class="contact-grid">
+          <a class="contact-card x-card" href="#" data-link="X_URL">
+            <div class="contact-card-head"><h3>X</h3><span>↗</span></div>
+            <p data-copy="xHandle"></p>
+          </a>
+
+          <a class="contact-card email-card" href="mailto:rushu.bizz@gmail.com">
+            <div class="contact-card-head"><h3 data-copy="emailTitle"></h3><span>↗</span></div>
+            <p data-copy="emailPrompt"></p>
+            <strong data-copy="emailAddress"></strong>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="fried-egg" aria-hidden="true"></div>
+      <span class="footer-line"></span>
+      <div class="footer-brand">
+        <img src="assets/eggface.png" alt="">
+        <span data-copy="footerBrand"></span>
+      </div>
+      <span class="footer-line"></span>
+      <div class="fried-egg" aria-hidden="true"></div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

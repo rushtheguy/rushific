@@ -16,14 +16,14 @@ const SITE = {
     twitchDescription: "Live streams",
 
     otdpName: "OH! THAT'S DOPE PRODUCTIONS",
-    otdpDescription: "Film analysis, reviews, blanket takes and more.",
+    otdpDescription: "Film and TV critiques.",
     neobrainerName: "NEOBRAINER",
-    neobrainerDescription: "Philosophy, literature and deeper thoughts.",
+    neobrainerDescription: "Philosophy and book discussions.",
     rudraName: "RUDRA SANCHAARI",
-    rudraDescription: "Video editing, freelancing, entrepreneurship and more.",
+    rudraDescription: "Video editing, and freelancing stuff.",
 
     discordTitle: "JOIN THE DISCORD",
-    discordDescription: "Chat, hang out, get updates, be part of the community.",
+    discordDescription: "community server",
     discordButton: "JOIN →",
     serverLabel: "SERVER NAME",
     serverName: "Vinland gangg",
@@ -31,7 +31,7 @@ const SITE = {
 
     aboutTitle: "ABOUT ME",
     aboutLine1: "The start of the page tells enough. If not that my content does.",
-    aboutLine2: "I am rudra sanchaari, or rushu or rushific.",
+    aboutLine2: "I am rushific aka rushu.",
     aboutLine3: "I make content.",
     aboutLine4: "I am from India.",
 
